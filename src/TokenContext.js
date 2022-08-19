@@ -1,7 +1,7 @@
 import React, {createContext, useState} from "react";
 import { TOKENS } from "./tokens";
 
-const TOKEN_COLS = 4
+const TOKEN_COLS = 5
 
 export const TokenContext = createContext()
 

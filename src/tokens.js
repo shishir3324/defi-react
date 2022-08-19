@@ -9,6 +9,11 @@ let tokens = [
     {name: "MANA", img: "https://www.vauld.com/assets/coins/mana.svg"},
     {name: "GRT", img: "https://www.vauld.com/assets/coins/grt.svg"},
     {name: "DOT", img: "https://www.vauld.com/assets/coins/dot.svg"},
+    {name: "CRV", img: "https://www.vauld.com/assets/coins/crv.svg"},
+    {name: "UNI", img: "https://www.vauld.com/assets/coins/uni.svg"},
+    {name: "BNB", img: "https://www.vauld.com/assets/coins/bnb.svg"},
+    {name: "XRP", img: "https://www.vauld.com/assets/coins/xrp.svg"},
+    {name: "BUSD", img: "https://www.vauld.com/assets/coins/busd.svg"},
 ]
 
 export const TOKENS = tokens.map((el) => ({ name: el.name, img: el.img, selected: false}))

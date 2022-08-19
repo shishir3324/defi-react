@@ -2,7 +2,7 @@ import React, {useContext, useEffect} from 'react';
 import { TokenContext } from './TokenContext';
 import "./styles.css"
 
-const TOKEN_COLS = 4
+const TOKEN_COLS = 5
 
 const TokenContainer = () => {
     const {tokens, selectedTokens, addToken, allocatePercentage} = useContext(TokenContext)
