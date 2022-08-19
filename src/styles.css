@@ -1,0 +1,30 @@
+.token-con {
+    height: 650px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.sm-chunk {
+    background: #F6F9FD;
+    height: 45px;
+    width: 45px; 
+}
+.token-chunk{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
